@@ -21,152 +21,146 @@
 #   - optional: if the blob is not found, extraction will not abort.
 #     directory for use in the build of other open source files.
 #
+# All blobs from yulong89_wet_kk-user 4.4.2 KOT49H 146 release-keys, unless pinned
 
-etc/agps_profiles_conf.xml
-etc/firmware/mt6628_patch_e2_1_hdr.bin
-etc/firmware/WIFI_RAM_CODE_E6
-etc/firmware/mt6628/mt6628_fm_v2_coeff.bin
-etc/firmware/mt6628/mt6628_fm_v4_coeff.bin
-etc/firmware/mt6628/mt6628_fm_v3_coeff.bin
-etc/firmware/mt6628/mt6628_fm_v5_patch.bin
-etc/firmware/mt6628/mt6628_fm_v2_patch.bin
-etc/firmware/mt6628/mt6628_fm_v4_patch.bin
-etc/firmware/mt6628/mt6628_fm_v1_coeff.bin
-etc/firmware/mt6628/mt6628_fm_v3_patch.bin
-etc/firmware/mt6628/mt6628_fm_rom.bin
-etc/firmware/mt6628/mt6628_fm_v1_patch.bin
-etc/firmware/mt6628/mt6628_fm_v5_coeff.bin
+# Audio
+
+# Audio-Hardware
+vendor/lib/hw/audio.a2dp.blueangel.so
+
+# Bluetooth
+vendor/lib/hw/bluetooth.blueangel.so
+
+# Camera
+
+# Charger
+lib/libshowlogo.so
+
+# DRM
+
+# DRM-Widevine
+vendor/lib/mediadrm/libwvdrmengine.so
+
+# Display-Hardware
+vendor/lib/hw/gralloc.mt6589.so
+
+# Firmware
+etc/firmware/catcher_filter_1_3g_n.bin
 etc/firmware/modem_1_3g_n.img
+etc/firmware/mt6628/mt6628_fm_rom.bin
+etc/firmware/mt6628/mt6628_fm_v1_coeff.bin
+etc/firmware/mt6628/mt6628_fm_v1_patch.bin
+etc/firmware/mt6628/mt6628_fm_v2_coeff.bin
+etc/firmware/mt6628/mt6628_fm_v2_patch.bin
+etc/firmware/mt6628/mt6628_fm_v3_coeff.bin
+etc/firmware/mt6628/mt6628_fm_v3_patch.bin
+etc/firmware/mt6628/mt6628_fm_v4_coeff.bin
+etc/firmware/mt6628/mt6628_fm_v4_patch.bin
+etc/firmware/mt6628/mt6628_fm_v5_coeff.bin
+etc/firmware/mt6628/mt6628_fm_v5_patch.bin
 etc/firmware/mt6628_ant_m1.cfg
-etc/firmware/mt6628_patch_e2_0_hdr.bin
 etc/firmware/mt6628_patch_e1_hdr.bin
-etc/firmware/WIFI_RAM_CODE
+etc/firmware/mt6628_patch_e2_0_hdr.bin
+etc/firmware/mt6628_patch_e2_1_hdr.bin
 etc/firmware/S_ANDRO_SFL.ini
+etc/firmware/WIFI_RAM_CODE
+etc/firmware/WIFI_RAM_CODE_E6
 etc/firmware/WIFI_RAM_CODE_MT6628
-etc/firmware/catcher_filter.bin
+etc/firmware/WIFI_RAM_CODE_MT6630
+etc/firmware/WIFI_RAM_CODE_SOC
 etc/firmware/WMT.cfg
-etc/firmware/touchpanel/tinno-fts-update-0514.ekt
-etc/throttle.sh
-etc/mtk_omx_core.cfg
-etc/audio_effects.conf
-etc/gps.conf
-etc/audio_policy.conf
-etc/.tp/thermal.off.conf
-etc/.tp/thermal.conf
-etc/.tp/.ht120.mtc
-bin/drvbd
-bin/thermal
-bin/mtk_agpsd
-bin/bmm050d
-bin/thermal_manager
-bin/nvram_daemon
-bin/6620_launcher
-bin/akmd8975
-bin/muxreport
-bin/permission_check
-bin/ami304d
-bin/ccci_fsd
-bin/wmt_loader
-bin/rild
-bin/orientationd
-bin/pppd
-bin/akmd8963
-bin/wlan_loader
-bin/rildmd2
-bin/ccci_mdinit
-bin/msensord
-bin/memsicd
-bin/nvram_agent_binder
-bin/pppd_dt
-bin/geomagneticd
-lib/libcam.paramsmgr.so
-lib/libcam_mmp.so
-lib/libion.so
-lib/libblisrc.so
-lib/libblisrc32.so
-lib/libdpframework.so
-lib/libcamera_metadata.so
-lib/libbluetooth_mtk.so
-lib/libJpgEncPipe.so
-lib/libaudiodcrflt.so
-lib/libcameracustom.so
-lib/mtk-ril.so
-lib/libnvram_platform.so
-lib/libnvram.so
-lib/libcam.utils.so
-lib/librilmtk.so
-lib/libmsbc_mtk.so
-lib/libaudiocomponentengine.so
-lib/libbluetoothdrv.so
-lib/libdpframework_os.so
-lib/libcustom_nvram.so
-lib/libbwc.so
-lib/libhwm.so
-lib/libcam_platform.so
-lib/libfeatureio.so
-lib/libmtklimiter.so
-lib/libcam_utils.so
-lib/libbessound_mtk.so
-lib/libcamera_client.so
-lib/libcam.campipe.so
-lib/libcam.camadapter.so
-lib/lib3a.so
-lib/libmtk_drvb.so
-lib/libmpo.so
-lib/libcam.client.so
-lib/libcameraservice.so
-lib/libspeech_enh_lib.so
-lib/libssladp.so
-lib/libmpoencoder.so
-lib/libcam.exif.so
-lib/libcam.device1.so
-lib/libaudiocustparam.so
-lib/libdpframework_plat.so
-lib/libcamdrv.so
-lib/libaudiosetting.so
-lib/libbessound_hd_mtk.so
-lib/libimageio.so
-lib/libmatv_cust.so
-lib/libmtkshifter.so
-lib/libaed.so
-lib/libcvsd_mtk.so
-lib/libfile_op.so
-lib/libcam.camshot.so
-lib/libm4u.so
-lib/hw/hwcomposer.mt6589.so
-lib/hw/gps.default.so
-lib/hw/audio.primary.mt6589.so
-lib/hw/lights.default.so
-lib/hw/power.default.so
-lib/hw/local_time.default.so
-lib/hw/camera.default.so
-lib/hw/sensors.default.so
-lib/hw/gralloc.default.so
-lib/hw/keystore.default.so
-lib/libcam.utils.sensorlistener.so
-lib/libaudiocompensationfilter.so
-lib/libcam_hwutils.so
-lib/libnvram_sec.so
-lib/libcamalgo.so
-lib/libnvram_daemon_callback.so
-xbin/libmnlp_mt6628
-xbin/mnld
+
+# GPS
+
+# GPS-Hardware
+
+# Graphics
+vendor/lib/egl/libEGL_mtk.so
+vendor/lib/egl/libGLESv1_CM_mtk.so
+vendor/lib/egl/libGLESv2_mtk.so
+
+# Listen
+
+# Media
+
+# Media-Hardware
+
+# Perf
+
+# Postprocessing
+
+# QMI
+
+# Radio
+
+# Sensors
+
+# Time
+
+# WiFi
+
+# Misc
+-vendor/app/bookMyShow.apk
+-vendor/app/CleanMaster_New.apk
+-vendor/app/GamesClub_v1.apk
+-vendor/app/Getit_9Apr14.apk
+-vendor/app/ggj_android_all_multilang.apk
+-vendor/app/hike.apk
+-vendor/app/MAd_v2.0.0_live_all.apk
+-vendor/app/Marbell_IG-IW.apk
+-vendor/app/MiGames_in_Released_IW.apk
+-vendor/app/MiLive.apk
+-vendor/app/moffice_ml-IW.apk
+-vendor/app/OperaBrandingProvide-Micromax.apk
+-vendor/app/operamini_IW.apk
+-vendor/app/Reverie_A109_KK.apk
+-vendor/app/Reverie_SmartPad_A109_KK.apk
+-vendor/app/SwiftKey.apk
 vendor/bin/pvrsrvctl
 vendor/bin/rc.fac
+vendor/data/MAd/mdcall/mAdCall/Banner/72
+vendor/data/MAd/mdcall/mAdCall/Banner/73
+vendor/data/MAd/mdcall/mAdCall/Banner/74
+vendor/data/MAd/mdcall/mAdCall/Banner/75
+vendor/data/MAd/mdcall/mAdCall/Banner/76
+vendor/data/MAd/mdcall/mAdCall/inbuild_XML/inbuild.xml
+vendor/data/MAd/mdcall/mAdCall/PreAds/72
+vendor/data/MAd/mdcall/mAdCall/PreAds/73
+vendor/data/MAd/mdcall/mAdCall/PreAds/74
+vendor/data/MAd/mdcall/mAdCall/PreAds/75
+vendor/data/MAd/mdcall/mAdCall/PreAds/76
+vendor/data/MAd/mdcall/mAdCall/PreImages/19
+vendor/data/MAd/mdcall/mAdCall/PreImages/20
+vendor/data/MAd/mdcall/mAdCall/PreImages/21
+vendor/data/MAd/mdcall/mAdCall/PreImages/22
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/libBLPP.so
+vendor/lib/libcleaninject.so
+vendor/lib/libglslcompiler.so
+vendor/lib/libIMGegl.so
+vendor/lib/libkcmutil.so
+vendor/lib/libmessagebox_ext.so
+vendor/lib/libMusicHunterClient.so
+vendor/lib/libom.so
+vendor/lib/libpvr2d.so
+vendor/lib/libpvrANDROID_WSEGL.so
+vendor/lib/libPVRScopeServices.so
+vendor/lib/libs3efacebook_ext.so
 vendor/lib/libsrv_init.so
 vendor/lib/libsrv_um.so
-vendor/lib/libpvr2d.so
-vendor/lib/drm/libdrmwvmplugin.so
-vendor/lib/libWVStreamControlAPI_L3.so
-vendor/lib/libglslcompiler.so
-vendor/lib/libwvdrm_L3.so
-vendor/lib/libIMGegl.so
+vendor/lib/libswiftkeysdk-java-internal.so
+vendor/lib/libsyscore.so
 vendor/lib/libusc.so
+vendor/lib/libvlife_AESCipher.so
+vendor/lib/libvlife_ffmpeg.so
+vendor/lib/libvlife_jpeg.so
+vendor/lib/libvlife_openglutil.so
+vendor/lib/libvlife_png.so
+vendor/lib/libvlife_render.so
+vendor/lib/libvlife_render2.so
+vendor/lib/libvlife_sdl.so
+vendor/lib/libwvdrm_L3.so
 vendor/lib/libwvm.so
-vendor/lib/libPVRScopeServices.so
-vendor/lib/egl/libGLESv1_CM_mtk.so
-vendor/lib/egl/libEGL_mtk.so
-vendor/lib/egl/libGLESv2_mtk.so
-vendor/lib/libpvrANDROID_WSEGL.so
-vendor/lib/libBLPP.so
-vendor/lib/hw/gralloc.mt6589.so
+vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/libww.so
+-vendor/operator/app/JellyJumpers_IG-IW.apk
