@@ -13,15 +13,15 @@
 # limitations under the License.
 
 # Inherit device configuration
-$(call inherit-product, device/micromax/a116/full_a116.mk)
+$(call inherit-product, device/micromax/A109/full_A109.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-PRODUCT_NAME := omni_a116
-PRODUCT_DEVICE := a116
+PRODUCT_NAME := omni_A109
+PRODUCT_DEVICE := A109
 PRODUCT_MODEL := Canvas CHD
 PRODUCT_BRAND := Micromax
 PRODUCT_MANUFACTURER := Micromax

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=micromax
-DEVICE=a116
+DEVICE=A109
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 

@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_FOLDER := device/micromax/a116
+DEVICE_FOLDER := device/micromax/A109
 
--include vendor/micromax/a116/BoardConfigVendor.mk
+-include vendor/micromax/A109/BoardConfigVendor.mk
 
 # board
 TARGET_BOARD_PLATFORM := mt6589
@@ -43,16 +43,17 @@ COMMON_GLOBAL_CPPFLAGS += -DMTK_HARDWARE
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_MTK := true
 BOARD_BLUETOOTH_DOES_NOT_USE_RFKILL := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/micromax/a116/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/micromax/A109/bluetooth
 
 # power
 TARGET_POWERHAL_VARIANT := cm
 
 # boot
+TARGET_BOOTLOADER_BOARD_NAME := Micromax_A109
 TARGET_NO_BOOTLOADER := true
 
 # EGL settings
-BOARD_EGL_CFG := device/micromax/a116/egl.cfg
+BOARD_EGL_CFG := device/micromax/A109/egl.cfg
 USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
@@ -77,7 +78,7 @@ TARGET_PREBUILT_RECOVERY_KERNEL := $(DEVICE_FOLDER)/recovery/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # mkimage to append headers
-TARGET_MKIMAGE := device/micromax/a116/mkimage
+TARGET_MKIMAGE := device/micromax/A109/mkimage
 TARGET_USE_BUILT_BOOTIMAGE := true
 
 # wifi
@@ -93,17 +94,17 @@ WIFI_DRIVER_FW_PATH_AP:=AP
 WIFI_DRIVER_FW_PATH_P2P:=P2P
 
 # telephony
-BOARD_RIL_CLASS := ../../../device/micromax/a116/ril/
+BOARD_RIL_CLASS := ../../../device/micromax/A109/ril/
 
 #nvram permission fix
-TARGET_SPECIFIC_HEADER_PATH := device/micromax/a116/include
+TARGET_SPECIFIC_HEADER_PATH := device/micromax/A109/include
 
 # allow more than one lun file
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
 
 #SEPolicy
 BOARD_SEPOLICY_DIRS += \
-    device/micromax/a116/sepolicy
+    device/micromax/A109/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     file_contexts \
