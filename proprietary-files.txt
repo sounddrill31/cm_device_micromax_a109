@@ -92,8 +92,8 @@ vendor/lib/egl/libGLESv2_mtk.so
 # QMI
 
 # Radio
-vendor/lib/libblisrc.so
-vendor/lib/libblisrc32.so 
+lib/libblisrc.so
+lib/libblisrc32.so 
 
 # Sensors
 
