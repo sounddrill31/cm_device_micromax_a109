@@ -24,6 +24,7 @@
 # All blobs from yulong89_wet_kk-user 4.4.2 KOT49H 146 release-keys, unless pinned
 
 # Audio
+lib/hw/audio.primary.default.so
 
 # Audio-Hardware
 vendor/lib/hw/audio.a2dp.blueangel.so
