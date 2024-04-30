@@ -100,22 +100,6 @@ vendor/lib/egl/libGLESv2_mtk.so
 # WiFi
 
 # Misc
--vendor/app/bookMyShow.apk
--vendor/app/CleanMaster_New.apk
--vendor/app/GamesClub_v1.apk
--vendor/app/Getit_9Apr14.apk
--vendor/app/ggj_android_all_multilang.apk
--vendor/app/hike.apk
--vendor/app/MAd_v2.0.0_live_all.apk
--vendor/app/Marbell_IG-IW.apk
--vendor/app/MiGames_in_Released_IW.apk
--vendor/app/MiLive.apk
--vendor/app/moffice_ml-IW.apk
--vendor/app/OperaBrandingProvide-Micromax.apk
--vendor/app/operamini_IW.apk
--vendor/app/Reverie_A109_KK.apk
--vendor/app/Reverie_SmartPad_A109_KK.apk
--vendor/app/SwiftKey.apk
 vendor/bin/pvrsrvctl
 vendor/bin/rc.fac
 vendor/data/MAd/mdcall/mAdCall/Banner/72
@@ -163,4 +147,3 @@ vendor/lib/libwvdrm_L3.so
 vendor/lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L3.so
 vendor/lib/libww.so
--vendor/operator/app/JellyJumpers_IG-IW.apk
