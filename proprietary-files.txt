@@ -104,21 +104,6 @@ vendor/lib/libblisrc32.so
 # Misc
 vendor/bin/pvrsrvctl
 vendor/bin/rc.fac
-vendor/data/MAd/mdcall/mAdCall/Banner/72
-vendor/data/MAd/mdcall/mAdCall/Banner/73
-vendor/data/MAd/mdcall/mAdCall/Banner/74
-vendor/data/MAd/mdcall/mAdCall/Banner/75
-vendor/data/MAd/mdcall/mAdCall/Banner/76
-vendor/data/MAd/mdcall/mAdCall/inbuild_XML/inbuild.xml
-vendor/data/MAd/mdcall/mAdCall/PreAds/72
-vendor/data/MAd/mdcall/mAdCall/PreAds/73
-vendor/data/MAd/mdcall/mAdCall/PreAds/74
-vendor/data/MAd/mdcall/mAdCall/PreAds/75
-vendor/data/MAd/mdcall/mAdCall/PreAds/76
-vendor/data/MAd/mdcall/mAdCall/PreImages/19
-vendor/data/MAd/mdcall/mAdCall/PreImages/20
-vendor/data/MAd/mdcall/mAdCall/PreImages/21
-vendor/data/MAd/mdcall/mAdCall/PreImages/22
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/libBLPP.so
 vendor/lib/libcleaninject.so
