@@ -75,7 +75,7 @@ done
 
 # hackywhacky
 echo "PRODUCT_COPY_FILES += \\" >> $MAKEFILE
-echo "  $OUTDIR/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so \\" >> $MAKEFILE
+echo "  $OUTDIR/proprietary/lib/hw/audio.primary.mt6589.so:$SRC/system/lib/hw/audio.primary.default.so \\" >> $MAKEFILE
 
 (cat << EOF) > ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/Android.mk
 
